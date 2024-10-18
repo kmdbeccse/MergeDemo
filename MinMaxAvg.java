@@ -4,7 +4,7 @@ class MinMaxAvg{
 		int[] nums;
 		int size, min, max, avg, sum=0;
 		Scanner s = new Scanner(System.in);
-		System.out.print("Enter Number of Elements:");
+		System.out.print("Enter Number of Elements for nums array:");
 		size = s.nextInt();
 		nums = new int[size];
 		System.out.println("Enter "+size+" no of Elements:");
